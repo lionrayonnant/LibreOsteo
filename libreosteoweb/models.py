@@ -157,10 +157,10 @@ class Examination(models.Model):
     reason_description = models.TextField(_('Reason description/Context'),
                                           blank=True)
     orl = models.TextField(_('ORL Sphere'), blank=True)
-    visceral = models.TextField(_('Visceral Sphere'), blank=True)
-    pulmo = models.TextField(_('Cardio-Pulmo Sphere'), blank=True)
-    uro_gyneco = models.TextField(_('Uro-gyneco Sphere'), blank=True)
-    periphery = models.TextField(_('Periphery Sphere'), blank=True)
+    visceral = models.TextField(_('Visceral System'), blank=True)
+    pulmo = models.TextField(_('Cardio-Pulmo System'), blank=True)
+    uro_gyneco = models.TextField(_('Uro-gyneco System'), blank=True)
+    periphery = models.TextField(_('Periphery System'), blank=True)
     general_state = models.TextField(_('General state'), blank=True)
     medical_examination = models.TextField(_('Medical examination'),
                                            blank=True)
